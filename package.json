@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsc -v"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/thuytran100401/TWER#readme",
   "dependencies": {
+    "express": "^4.18.2",
     "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8",
+    "ts-node-dev": "^2.0.0"
   }
 }
